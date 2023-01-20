@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.wrapper-parent{
+    height: 100vh;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+.box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 200px;
+}
+.box-get{
+    padding: 20px;
+    width: 500px;
+    background-color:#200;
+    color:aliceblue;
+    text-align: center;
+}
+.box-top{
+        border-radius: 20px 20px 0px 0px;
+}
+.box-bottom{
+        border-radius: 0px 0px 20px 20px;
+}
+.wrapper{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.width{
+    width: 200px;
+    padding: 15px;
+    height: 200px;
+    color:#fff;
+    margin-right: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    border-radius:10px;
+    user-select: none;
+}
+.wraper-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80vh;
+    gap: 10px;
+}
+.wrapper-beef{
+    background: #bc465b;
+}
+.wrapper-tomato{
+    background: red;
+}
+.wrapper-cockatiel{
+    background: green;
+}
+.wrapper-cow{
+    background: yellow;
+}
+.box-all{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items:center;
+    justify-content: center;
+}
+.item-beef{
+    width: 480px;
+    padding: 20px;
+    border-radius:8px;
+    color:#fff;
+    text-align: center;
+    user-select: none;
+}
